@@ -1,0 +1,45 @@
+* {
+  background-color: black;
+}
+.inner {
+  width: auto;
+  height: 102.19px;
+  display: flex;
+  justify-content: center;
+}
+.inner > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1380px;
+  margin: 0 25px;
+}
+.inner > .container > a > .logo--chai {
+  width: 136.38px;
+  height: 41.98px;
+}
+.inner > .container > .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner > .container > .items > .contents__intro {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 89.58px;
+  height: 64px;
+}
+.inner > .container > .items .logo {
+  width: 20px;
+  height: 20px;
+}
+.inner > .container > .items > .contents__logo {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
