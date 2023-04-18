@@ -1,6 +1,22 @@
 * {
   background-color: black;
 }
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+/*Header*/
 .inner {
   width: auto;
   height: 75px;
@@ -42,4 +58,76 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.inner > .container > .items .contents__intro:hover {
+  color: #555;
+}
+/*Notice*/
+
+h1 {
+  color: white;
+  font-size: 65px;
+  margin-top: 200px;
+}
+
+/*Apple Google Button*/
+.notice {
+  display: flex;
+  justify-content: center;
+}
+.notice > .container {
+  width: 1380px;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  display: flex;
+}
+.items__left {
+  color: white;
+  width: 191.02px;
+  height: 60px;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.items__left:hover {
+  background-color: #555;
+}
+.items__right {
+  color: white;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1a1a;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+.items__right:hover {
+  background-color: #555;
+}
+.wrapper > a > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-color: #1a1a1a;
+}
+.wrapper a > img:hover {
+  background-color: #555;
+}
+.wrapper a > img:hover {
+  background-color: hsla(0, 0%, 100%, 0.75);
+}
+
+.notice__right > img {
+  margin-top: 100px;
+  width: 92%;
+  height: 70%;
 }
